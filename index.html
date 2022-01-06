@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title> Mayoral Test </title>
+        <!-- Meta tags -->
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Test para Mayoral | Desarollador Junior">
+        <link rel="shortcut icon" href="img/favicon.ico"/>
+        <meta name="robots" content="index"/>
+        <!-- Font Config -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,800;1,400&display=swap" rel="stylesheet">
+        <!-- Author Tag -->
+        <meta name="author" content="Samuel Abade" />
+        <!-- CSS Tag -->
+        <link rel="stylesheet" href="css/styles.css" />
+        <!-- Font Awesome Tag-->
+        <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+        <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <!-- Bootstrap (To make Cards Easier)-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body onload="main()">
+        <!-- Upper Menu Bar-->
+        <div class="topmenu">
+            <div class="centered">
+                <a>
+                    <img src="img/logo.png" width="160" height="60">
+                </a>
+            </div>
+            <div class="right">
+                <a href="https://github.com/SamuelAbade" target="_blank">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+            </div>
+        </div>
+        <!-- Container -->
+        <div class="container">
+            <!-- Search Bar-->
+            <form class="search-container">
+                <input type="text" id="search-bar" placeholder="Buscar" onKeyPress="search()">
+                <a href="#"><i class="fas fa-search search-icon"></i></a>
+            </form>
+            <!-- Test -->
+            <div id="result"></div>
+            <!-- Card -->
+            <div class="center">
+                <div class="card-columns card-deck">
+                    <div id="product"></div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- VanillaJS Scripts -->
+        <script src="js/index.js"></script>
+        <!-- FontAwesome Script -->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    </body>
+</html>
