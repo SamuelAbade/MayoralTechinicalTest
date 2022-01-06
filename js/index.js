@@ -4,7 +4,7 @@ function final(){
 }
 // Get all elements from data.json
 async function getJSONData() {
-    let response = await fetch('./json/data.json').catch(err => console.log(err));
+    let response = await fetch('../json/data.json').catch(err => console.log(err));
     let data = await response.json();
     return data;
 }
