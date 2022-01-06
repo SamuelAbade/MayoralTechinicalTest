@@ -1,7 +1,7 @@
 # Techinal Test by Mayoral
 ### Made with VanillaJS, CSS, HTML5 and fetched via JSON (Webscraped of mayoral.com).
 
-:ceuta_mellila:
+:es:
 Español:
 
 `NOTA: Presionar 'Enter' al utilizar el searchbar, HTML5 tiene ciertas dificultades al enter el Listener onKeyPress y onKeyUp` 
