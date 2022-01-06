@@ -19,7 +19,7 @@ async function search(){
     }else{
         container.innerHTML = "";
         const filter = dataJSON.filter(data => {
-            return data.title.includes(search);
+            return data.title.includes(search.charAt(0).toUpperCase() + search.slice(1));
         });
         filter.forEach(function(product, id) {
             const card = document.createElement('div');
